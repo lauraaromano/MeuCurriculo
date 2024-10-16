@@ -3,220 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Curriculo</title>
+    <title>Loja de Bolos</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    
 </head>
 <body>
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Currículo</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          <a class="nav-link" href="#projetos">Cursos</a>
-          <a class="nav-link" href="#competencias">Competências</a>
-          <a class="nav-link" href="#Formações">Projetos</a>
-          
-          
+    <!-- inicio do menu -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Loja</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#receitas">Receitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>                    
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-  </nav>
+    </nav>
+    <!-- fim do menu -->
 
-
-    <div class="container">
-      <main>
+     <header class="container mt-5">
+        <h1 class="text-center">Loja de Bolos</h1>
+     </header>
+     <main class="container mt-5">
         <section>
-          <div class="row">
-            <div>
-              <h2 id="home">Sobre mim</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <!-- aqui aparece minha descrição -->
-              <div class="card w-75 mb-3">
-                <div class="card-body">
-                  <h5 class="card-title">Laura Romano
-                    Estudante de TI - ETEC</h5>
-                  <p class="card-text">
-      
-                    Sou uma estudante dedicada de TI com grande interesse nessa área. Estou desenvolvendo habilidades nesse ramo , sempre buscando aprofundar meu conhecimento e expandir minhas experiências práticas. Estou constantemente em busca de novos desafios e oportunidades para aplicar meus aprendizados acadêmicos no ambiente profissional. Tenho facilidade para trabalhar em equipe, sou organizada e possuo uma forte capacidade de adaptação a diferentes situações e demandas.</p>
-                 
+            <h2 class="text-center" id="receitas">Receitas em Destaque</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/receita_01.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Morango</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary">R$110,00</h6>
+                          <p class="card-text">
+                            Um bolo de morango delicioso combina uma massa leve feita com ovos, açúcar, farinha, leite, óleo e baunilha, assada até dourar. O recheio é um brigadeiro branco feito com leite condensado, manteiga e creme de leite, ao qual são adicionados morangos frescos picados. Após assar e esfriar, o bolo é cortado ao meio, recheado com essa mistura de brigadeiro e morangos, e coberto com chantilly ou o restante do recheio. A decoração final inclui morangos inteiros, garantindo uma apresentação irresistível.
+                        </p>
+                          <a href="https://www.mamacida.com.br/bolo-de-leite-condensado-com-morango-kg?srsltid=AfmBOoqGay7z4YgXlrjdHHBvQlgjLFOVXNBeDqD8RosqVD6vC47uvVFFge8" class="btn btn-primary">Clique aqui</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/receita_02.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Leite Ninho</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary">R$99,00</h6>
+                          <p class="card-text">
+                            O bolo de leite Ninho é uma delícia que combina uma massa fofinha com um recheio cremoso à base de leite em pó. A massa tradicional leva ovos, açúcar, farinha de trigo, leite e fermento. O diferencial está no recheio e cobertura, que são feitos com uma mistura de leite condensado, creme de leite, manteiga e uma boa quantidade de leite Ninho. Após assar o bolo, ele é cortado ao meio e generosamente recheado. A cobertura cremosa também leva leite Ninho e pode ser finalizada com leite em pó polvilhado por cima, resultando em um bolo doce e super macio.
+                          </p>
+                          <a href="https://www.mamacida.com.br/bolo-mousse-de-leite-ninho-kg?srsltid=AfmBOopFNm7lLbOGVratKpvO7rrbw61fxCPNwq6WWsfC5jlp-GHVSHtT2sM" class="btn btn-primary">Clique aqui</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/receita_03.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo de Chocolate</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary">R$61,90</h6>
+                          <p class="card-text">
+                            O bolo de chocolate clássico é uma sobremesa rica e irresistível. A massa é preparada com ingredientes básicos como farinha de trigo, açúcar, ovos, leite, óleo, fermento, e, claro, chocolate em pó. Para intensificar o sabor, muitas receitas utilizam cacau em pó. Após assar, o bolo fica macio e com uma textura úmida. O recheio e a cobertura geralmente são feitos com um brigadeiro ou ganache, que combina chocolate derretido com creme de leite. Finalize cobrindo o bolo com essa calda cremosa e, se quiser, acrescente raspas de chocolate ou confeitos para decorar.
+                          </p>
+                          <a href="https://www.vovovegana.com.br/bolo-vegano-de-chocolate?srsltid=AfmBOopt0aY7jkVJIR50LwiC4FmrDAU7E8zS98kcavnaOrlFjKeckrFjWRM" class="btn btn-primary">Clique aqui</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <!-- aqui aparece minha imagem -->
-              <img src="img/20240816_190411.jpg" alt="" style="height: 10cm; width: 7cm; ">
-            </div>
-          </div>
         </section>
         <section>
-          <div class="row">
-            <div>
-              <h2 id="projetos" >Cursos</h2>
-            </div>
-          </div>
-          <div class="row">
-            
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" style="background-color: rgb(240, 160, 209); ">
-                    Pacote Office
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                  <div class="accordion-body">
-                    <strong>Curso de pacote Office.</strong> Concluí o curso de Pacote Office na escola WNS, onde desenvolvi habilidades práticas nos programas Word, Excel e PowerPoint .Durante o curso, aprendi a criar e formatar documentos profissionais, planilhas dinâmicas e apresentações impactantes , aplicando esses conhecimentos em atividades que otimizam processos administrativos e organizacionais.
-                  </div>
+            <h2 class="text-center mt-5" id="contato">Contato</h2>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
-              </div>
-              
-              </div>
-              
-            </div><div class="accordion" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" style="background-color: rgb(240, 160, 209);;">
-                    Curso de Inglês
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                  <div class="accordion-body">
-                    <strong>Curso do idioma Inglês</strong> Estou realizando um curso de inglês que comecei em 2019. Já concluí os níveis básico e pré-intermediário, e estou finalizando o nível intermediário este ano.
-                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" style="background-color: rgb(240, 160, 209);;">
-                    Curso Técnico
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                    <strong>Curso técnico de TI .</strong> Estou no primeiro ano de um curso técnico de TI, onde estou aprendendo sobre tecnologia, programação e redes, além de desenvolver habilidades práticas para atuar na área de tecnologia da informação.
-                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-              </div>
-              
-               
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </section>
+     </main>
+     <footer class="container-fluid mt-5 mb-3">
+        <p>&copy; 2024 - Laura Romano</p>
+     </footer>
+    
 
-
-
-        <br>
-        <section>
-          <div class="row">
-            <div>
-              <h2 id="competencias">Competências</h2>
-            </div>
-          
-          </div>
-          <div class="row">
-            <!-- aqui vai 4 colunas que vão conter um card cada uma deles -->
-            <div class="col">
-              <ul class="list-group">
-                <li class="list-group-item active" aria-current="true" style="background-color:rgb(248, 194, 227) ; color: black; border: black;">Competências técnicas</li>
-                <li class="list-group-item">Pacote Office (Word, Excel, PowerPoint)</li>
-                <li class="list-group-item">Edição de Texto e Formatação</li>
-                <li class="list-group-item">Gerenciamento de Projetos</li>
-                <li class="list-group-item">Habilidades de Pesquisa Acadêmica</li>
-              </ul>
-            </div>
-            <div class="col">
-              <ul class="list-group">
-                <li class="list-group-item active" aria-current="true" style="background-color: rgb(248, 194, 227); color: black; border: black;">Competências Comportamentais</li>
-                <li class="list-group-item">Trabalho em Equipe</li>
-                <li class="list-group-item">Resolução de Problemas</li>
-                <li class="list-group-item">Proatividade</li>
-                <li class="list-group-item">Organização e Gestão do Tempo</li>
-              </ul>
-            </div>
-            
-        </section>
-        <br>
-
-        <section>
-          <div>
-            <h2 id="Formações">Projetos</h2>
-          </div>
-
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/Capturar.PNG" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" style="background-color: rgb(248, 194, 227); color: black;">
-                  <h5>SITE STRANGER THINGS</h5>
-                  <p>Nesse site falei um pouco sobre a série , assim como , apresentei o elenco principal dela.
-                  </p>
-                    <a href="https://lauraaromano.github.io/MeuPrimeiroSite/" style="color: rgb(230, 59, 161);">Acesse o site </a>
-                  
-                </div>
-              </div>
-              <div class="carousel-item" >
-                <img src="img/figma.PNG" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" style="background-color: rgb(248, 194, 227); color: black;">
-                  <h5>FIGMA HAMBURGUERIA</h5>
-                  <p>Aqui fiz um figma como base para um app , para uma hamburgueria , com a colaboração da minha irmã.</p>
-                  <a href="https://www.figma.com/design/9EG1r38Gi1zs0tiyEV3NKc/Hamburgueria?node-id=0-1&node-type=canvas&t=woFfV9AxiPN7ffaG-0" style="color: rgb(230, 59, 161);">Acesse o figma</a>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/fimga.PNG" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" style="background-color: rgb(248, 194, 227);color: black;">
-                  <h5>FIGMA DE UMA DOCERIA</h5>
-                  <p>Aqui fiz um figma como base para um app , para uma doceria ,com a colaboração da minha irmã.</p>
-                  <a href="https://www.figma.com/design/7AsjqRiOuxUqcYuHut1rwh/doceria?node-id=0-1&node-type=canvas&t=pS2cy83bnvOMf6sq-0" style="color: rgb(230, 59, 161);;">Acesse o figma </a>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-        </section>
-
-        
-
-      </main>
-    </div>
-    <div class="container-fluid">
-
-
-     
-
-      <footer style="    background-color: rgb(204, 132, 166);
-    padding: 3%;">
-        <!-- aqui vai o rodapé -->
-         Laura Romano
-         <br>
-         +55 11 99652-7394
-         <br>
-         Lauraromano2018@gmail.com
-      </footer>
-    </div>
-
-
-      <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
-
